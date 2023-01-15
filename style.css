@@ -4,7 +4,7 @@
 
 }
 
-/* first banner */
+                             /* first banner */
 h3 {
     font-weight: 700;
     font-size: 35px;
@@ -55,7 +55,7 @@ h3 {
     margin-top: 50px;
 }
 
-/* second bennar */
+                               /* second bennar */
 .second-bennar {
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ h3 {
     color: #727272;
     margin-bottom: 35px;
 }
-/* third-bennar */
+                              /* third-bennar */
 .third-section{
     margin-left: 6%;
     display: flex;
@@ -103,7 +103,7 @@ h3 {
     align-items: center;
     gap: 20px;
 }
-.third-section-title h1{
+.third-section-title h1, .primary-title{
     font-weight: 700;
 font-size: 45px;
 margin-bottom: 25px;
@@ -111,7 +111,7 @@ margin-bottom: 25px;
 .third-section-ditais h1{
 font-size: 25px;
 }
-.third-section-1-detais{
+.third-section-1-detais, .four-section-1-detais{
     color: #727272;
     margin-bottom: 25px;
 }
@@ -146,13 +146,72 @@ margin-bottom: 25px;
     font-size: 45px;
     margin-bottom:15px ;
 }
+                                       /* 4th */
+.four-section{
+margin-left: 6%;
+}
+.primary-title{
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+.four-section-1-detais{
+    margin-bottom: 100px;
+}
+                                /* section five */
+.section-five{
+    display: flex;
+    margin: 0% 6%;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.work-details{
+    height: 170px;
+    width: 150px;
+    border:1px solid #FF900E;
+   text-align: center;
+}
+.work-details img{
+    margin-top: 40px;
+   
+}
+.work-details h1{
+    font-weight: 600;
+font-size: 35px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+.work-details:hover{
+    border: 4px solid blue; 
+}
+.work-details h1:hover{
+    border: 4px solid blue; 
+    background-color: chartreuse;
+    transform: scale(1.3);
+    transition: transform 3s ease-out 0.3s;
+}
+.work-details img:hover{
+    border: 4px solid blue; 
+    background-color: #FF900E;
+    transform: translateX(20px)  rotate(-30deg);
+    
+    transition: transform 3s ease-out 0.3s;
+}
+.work-details p:hover{
+    color: #FFFFFF;
+    background-color: darkorange;
+    transform: scale(0.6);
+    transition: transform 3s ease-out 0.3s;
+}
 
 
 
-/* media query */
+
+
+                                  /* media query */
 @media screen and (max-width:576px) {
 
-    /* bennar-1 */
+                                    /* bennar-1 */
     .main-header {
         margin: 0px;
         padding: 5%;
@@ -174,7 +233,7 @@ margin-bottom: 25px;
         width: 100%;
     }
 
-    /* bennar-2  */
+                                  /* bennar-2  */
     .second-bennar {
         flex-direction: column;
         margin: 0%;
@@ -201,7 +260,7 @@ margin-bottom: 25px;
     .second-bennar-details {
         word-wrap: wrap;
     }
-/* 3rd bennar */
+                              /* 3rd bennar */
 .third-section{
     flex-direction: column;
 
@@ -221,7 +280,14 @@ margin-bottom: 25px;
 .third-btn button{
     padding: 10px 30px;
 }
+                           /* section five */
 
+.section-five{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
+}
 
 }
