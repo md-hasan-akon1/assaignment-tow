@@ -203,7 +203,25 @@ margin-bottom: 5px;
     transform: scale(0.6);
     transition: transform 3s ease-out 0.3s;
 }
-
+                              /* section six */
+.Sponspor{
+    margin: 0% 6%;
+    text-align: center;
+    margin-bottom: 55px;
+}
+ .logo{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 6%;
+    margin-bottom: 100px;
+ }
+ .logo img{
+    height: 60px;
+    width:100px ;
+    filter: grayscale(100%);
+ }
+     
+   
 
 
 
@@ -287,7 +305,14 @@ margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     gap: 30px;
-
+}
+                             /* saven section */
+.logo{
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(100%);
 }
 
 }
