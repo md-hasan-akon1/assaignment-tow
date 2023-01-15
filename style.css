@@ -108,6 +108,9 @@ h3 {
 font-size: 45px;
 margin-bottom: 25px;
 }
+.third-section-ditais h1{
+font-size: 25px;
+}
 .third-section-1-detais{
     color: #727272;
     margin-bottom: 25px;
@@ -116,20 +119,20 @@ margin-bottom: 25px;
     background: #FFFFFF;
 box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 border-radius: 8px;
-margin-top: 20px;
+margin-top: 50px;
 padding: 30px;
 }
 .third-section-img img{
-    height: 900px;
+    height: 100%;
     width: 800px;
 }
 .third-section-ditais h1{
-margin-bottom: 10px;
+margin-bottom: 25px;
 }
 
 .third-btn{
    margin-left: 38%;
-   margin-top: -85px;
+   margin-top:-85px;
 }
 .third-btn button{
     padding: 30px 50px;
@@ -141,7 +144,7 @@ margin-bottom: 10px;
 }
 .third-btn h1{
     font-size: 45px;
-    margin-bottom:10px ;
+    margin-bottom:15px ;
 }
 
 
